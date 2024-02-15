@@ -32,17 +32,15 @@ html(lang='en')
         nav#mainNav.navbar.navbar-expand-lg.navbar-light.fixed-top.py-3
             .container.px-4.px-lg-5
                 a.navbar-brand(href='#page-top') Ms-Momo
-                // add a button in middle of the navbar when click set href to https://api.whatsapp.com/send?phone=6587680183&amp;text=*From%20:*%20https%3A%2F%2Fcaringskin.com.sg%2F
+                // add a green whatsapp button in middle of the navbar when click set href to https://api.whatsapp.com/send?phone=6587680183&amp;text=*From%20:*%20https%3A%2F%2Fcaringskin.com.sg%2F
                 button.navbar-toggler.navbar-toggler-right.bi-whatsapp.fs-2.mb-3.text-muted(aria-controls='collapseExample', aria-expanded='false', type='button', onclick='window.open("https://api.whatsapp.com/send?phone=6584999688&amp;text=*From Ms-Momo%20:*%20https%3A%2F%2Fcaringskin.com.sg%2F")')
-
-
-
-                //button#sendbtn.accordion-button.floating_button.bi-whatsapp.fs-2.mb-3.text-muted(aria-controls='collapseExample', aria-expanded='false', type='button', onclick='window.open("https://api.whatsapp.com/send?phone=6587680183&amp;text=*From%20:*%20https%3A%2F%2Fcaringskin.com.sg%2F")' )
 
                 button.navbar-toggler.navbar-toggler-right(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
                     span.navbar-toggler-icon
                 #navbarResponsive.collapse.navbar-collapse
                     ul.navbar-nav.ms-auto.my-2.my-lg-0
+                        li.nav-item
+                            a.nav-link(href='https://api.whatsapp.com/send?phone=6584999688&amp;text=*From Ms-Momo%20:*%20https%3A%2F%2Fcaringskin.com.sg%2F') Whatsapp
                         li.nav-item
                             a.nav-link(href='#about') About
                         li.nav-item
